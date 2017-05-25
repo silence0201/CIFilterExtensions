@@ -8,7 +8,7 @@
 
 import CoreImage
 
-public class ZoomBlur {
+public class CIZoomBlurFilter {
     
     public var image: CIImage
     public var amount: NSNumber = 20

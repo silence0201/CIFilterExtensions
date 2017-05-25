@@ -12,7 +12,7 @@
 		E856A0D61ED73BFC0025C67D /* CIBoxBlurFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E856A0D51ED73BFC0025C67D /* CIBoxBlurFilter.swift */; };
 		E856A0D81ED73C240025C67D /* CIDiscBlurFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E856A0D71ED73C240025C67D /* CIDiscBlurFilter.swift */; };
 		E856A0DA1ED73C5F0025C67D /* CIGaussianBlurFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E856A0D91ED73C5F0025C67D /* CIGaussianBlurFilter.swift */; };
-		E856A0DC1ED73C910025C67D /* CIMaskedVariableBlur.swift in Sources */ = {isa = PBXBuildFile; fileRef = E856A0DB1ED73C910025C67D /* CIMaskedVariableBlur.swift */; };
+		E856A0DC1ED73C910025C67D /* CIMaskedVariableBlurFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E856A0DB1ED73C910025C67D /* CIMaskedVariableBlurFilter.swift */; };
 		E856A0DE1ED73CC00025C67D /* CIMotionBlurFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E856A0DD1ED73CC00025C67D /* CIMotionBlurFilter.swift */; };
 		E856A0E01ED73CEA0025C67D /* CIZoomBlurFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E856A0DF1ED73CEA0025C67D /* CIZoomBlurFilter.swift */; };
 		E8CF8E0C1ED6EF0F002B9AC6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8CF8E0B1ED6EF0F002B9AC6 /* AppDelegate.swift */; };
@@ -210,7 +210,7 @@
 		E856A0D51ED73BFC0025C67D /* CIBoxBlurFilter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CIBoxBlurFilter.swift; sourceTree = "<group>"; };
 		E856A0D71ED73C240025C67D /* CIDiscBlurFilter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CIDiscBlurFilter.swift; sourceTree = "<group>"; };
 		E856A0D91ED73C5F0025C67D /* CIGaussianBlurFilter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CIGaussianBlurFilter.swift; sourceTree = "<group>"; };
-		E856A0DB1ED73C910025C67D /* CIMaskedVariableBlur.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CIMaskedVariableBlur.swift; sourceTree = "<group>"; };
+		E856A0DB1ED73C910025C67D /* CIMaskedVariableBlurFilter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CIMaskedVariableBlurFilter.swift; sourceTree = "<group>"; };
 		E856A0DD1ED73CC00025C67D /* CIMotionBlurFilter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CIMotionBlurFilter.swift; sourceTree = "<group>"; };
 		E856A0DF1ED73CEA0025C67D /* CIZoomBlurFilter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CIZoomBlurFilter.swift; sourceTree = "<group>"; };
 		E8CF8E081ED6EF0F002B9AC6 /* Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -415,7 +415,7 @@
 				E856A0D51ED73BFC0025C67D /* CIBoxBlurFilter.swift */,
 				E856A0D71ED73C240025C67D /* CIDiscBlurFilter.swift */,
 				E856A0D91ED73C5F0025C67D /* CIGaussianBlurFilter.swift */,
-				E856A0DB1ED73C910025C67D /* CIMaskedVariableBlur.swift */,
+				E856A0DB1ED73C910025C67D /* CIMaskedVariableBlurFilter.swift */,
 				E856A0DD1ED73CC00025C67D /* CIMotionBlurFilter.swift */,
 				E856A0DF1ED73CEA0025C67D /* CIZoomBlurFilter.swift */,
 			);
@@ -863,7 +863,7 @@
 				E8CF8FDD1ED719D2002B9AC6 /* CITemperatureAndTintFilter.swift in Sources */,
 				E8CF90591ED7330E002B9AC6 /* CIRandomGeneratorFilter.swift in Sources */,
 				E8CF8F9C1ED7061B002B9AC6 /* CIPinchDistortionFilter.swift in Sources */,
-				E856A0DC1ED73C910025C67D /* CIMaskedVariableBlur.swift in Sources */,
+				E856A0DC1ED73C910025C67D /* CIMaskedVariableBlurFilter.swift in Sources */,
 				E8CF8FF21ED71D0C002B9AC6 /* CIColorPosterizeFilter.swift in Sources */,
 				E8CF8FCF1ED717C4002B9AC6 /* CIColorMatrixFilter.swift in Sources */,
 				E8CF8F971ED7061B002B9AC6 /* CIDrosteFilter.swift in Sources */,

@@ -8,7 +8,7 @@
 
 import CoreImage
 
-public class CIMaskedVariableBlur {
+public class CIMaskedVariableBlurFilter {
     
     public var image: CIImage
     public var mask: CIImage
