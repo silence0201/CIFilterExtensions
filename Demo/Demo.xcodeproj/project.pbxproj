@@ -12,6 +12,21 @@
 		E8CF8E111ED6EF0F002B9AC6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E8CF8E0F1ED6EF0F002B9AC6 /* Main.storyboard */; };
 		E8CF8E131ED6EF0F002B9AC6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E8CF8E121ED6EF0F002B9AC6 /* Assets.xcassets */; };
 		E8CF8E161ED6EF0F002B9AC6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E8CF8E141ED6EF0F002B9AC6 /* LaunchScreen.storyboard */; };
+		E8CF8E201ED6EFD4002B9AC6 /* CIBumpDistortionFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8CF8E1F1ED6EFD4002B9AC6 /* CIBumpDistortionFilter.swift */; };
+		E8CF8E221ED6F152002B9AC6 /* CIBumpDistortionLinearFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8CF8E211ED6F152002B9AC6 /* CIBumpDistortionLinearFilter.swift */; };
+		E8CF8E241ED6F2C2002B9AC6 /* CICircleSplashDistortionFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8CF8E231ED6F2C2002B9AC6 /* CICircleSplashDistortionFilter.swift */; };
+		E8CF8E261ED6F371002B9AC6 /* CICircularWrapFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8CF8E251ED6F371002B9AC6 /* CICircularWrapFilter.swift */; };
+		E8CF8E281ED6F407002B9AC6 /* CIDisplacementDistortionFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8CF8E271ED6F407002B9AC6 /* CIDisplacementDistortionFilter.swift */; };
+		E8CF8E2A1ED6F474002B9AC6 /* CIDrosteFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8CF8E291ED6F474002B9AC6 /* CIDrosteFilter.swift */; };
+		E8CF8E2C1ED6F520002B9AC6 /* CIGlassDistortionFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8CF8E2B1ED6F520002B9AC6 /* CIGlassDistortionFilter.swift */; };
+		E8CF8E2E1ED6F589002B9AC6 /* CIGlassLozengeFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8CF8E2D1ED6F589002B9AC6 /* CIGlassLozengeFilter.swift */; };
+		E8CF8E301ED6F5F6002B9AC6 /* CIHoleDistortionFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8CF8E2F1ED6F5F6002B9AC6 /* CIHoleDistortionFilter.swift */; };
+		E8CF8E321ED6F655002B9AC6 /* CILightTunnelFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8CF8E311ED6F655002B9AC6 /* CILightTunnelFilter.swift */; };
+		E8CF8E341ED6F6D7002B9AC6 /* CIPinchDistortionFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8CF8E331ED6F6D7002B9AC6 /* CIPinchDistortionFilter.swift */; };
+		E8CF8E361ED6F75D002B9AC6 /* CIStretchCropFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8CF8E351ED6F75D002B9AC6 /* CIStretchCropFilter.swift */; };
+		E8CF8E381ED6F7EA002B9AC6 /* CITorusLensDistortionFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8CF8E371ED6F7EA002B9AC6 /* CITorusLensDistortionFilter.swift */; };
+		E8CF8E3A1ED6F83A002B9AC6 /* CITwirlDistortionFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8CF8E391ED6F83A002B9AC6 /* CITwirlDistortionFilter.swift */; };
+		E8CF8E3C1ED6F88E002B9AC6 /* CIVortexDistortionFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8CF8E3B1ED6F88E002B9AC6 /* CIVortexDistortionFilter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +37,21 @@
 		E8CF8E121ED6EF0F002B9AC6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E8CF8E151ED6EF0F002B9AC6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E8CF8E171ED6EF0F002B9AC6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E8CF8E1F1ED6EFD4002B9AC6 /* CIBumpDistortionFilter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CIBumpDistortionFilter.swift; sourceTree = "<group>"; };
+		E8CF8E211ED6F152002B9AC6 /* CIBumpDistortionLinearFilter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CIBumpDistortionLinearFilter.swift; sourceTree = "<group>"; };
+		E8CF8E231ED6F2C2002B9AC6 /* CICircleSplashDistortionFilter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CICircleSplashDistortionFilter.swift; sourceTree = "<group>"; };
+		E8CF8E251ED6F371002B9AC6 /* CICircularWrapFilter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CICircularWrapFilter.swift; sourceTree = "<group>"; };
+		E8CF8E271ED6F407002B9AC6 /* CIDisplacementDistortionFilter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CIDisplacementDistortionFilter.swift; sourceTree = "<group>"; };
+		E8CF8E291ED6F474002B9AC6 /* CIDrosteFilter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CIDrosteFilter.swift; sourceTree = "<group>"; };
+		E8CF8E2B1ED6F520002B9AC6 /* CIGlassDistortionFilter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CIGlassDistortionFilter.swift; sourceTree = "<group>"; };
+		E8CF8E2D1ED6F589002B9AC6 /* CIGlassLozengeFilter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CIGlassLozengeFilter.swift; sourceTree = "<group>"; };
+		E8CF8E2F1ED6F5F6002B9AC6 /* CIHoleDistortionFilter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CIHoleDistortionFilter.swift; sourceTree = "<group>"; };
+		E8CF8E311ED6F655002B9AC6 /* CILightTunnelFilter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CILightTunnelFilter.swift; sourceTree = "<group>"; };
+		E8CF8E331ED6F6D7002B9AC6 /* CIPinchDistortionFilter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CIPinchDistortionFilter.swift; sourceTree = "<group>"; };
+		E8CF8E351ED6F75D002B9AC6 /* CIStretchCropFilter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CIStretchCropFilter.swift; sourceTree = "<group>"; };
+		E8CF8E371ED6F7EA002B9AC6 /* CITorusLensDistortionFilter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CITorusLensDistortionFilter.swift; sourceTree = "<group>"; };
+		E8CF8E391ED6F83A002B9AC6 /* CITwirlDistortionFilter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CITwirlDistortionFilter.swift; sourceTree = "<group>"; };
+		E8CF8E3B1ED6F88E002B9AC6 /* CIVortexDistortionFilter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CIVortexDistortionFilter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +84,7 @@
 		E8CF8E0A1ED6EF0F002B9AC6 /* Demo */ = {
 			isa = PBXGroup;
 			children = (
+				E8CF8E1D1ED6EF64002B9AC6 /* CIFilterExtensions */,
 				E8CF8E0B1ED6EF0F002B9AC6 /* AppDelegate.swift */,
 				E8CF8E0D1ED6EF0F002B9AC6 /* ViewController.swift */,
 				E8CF8E0F1ED6EF0F002B9AC6 /* Main.storyboard */,
@@ -62,6 +93,37 @@
 				E8CF8E171ED6EF0F002B9AC6 /* Info.plist */,
 			);
 			path = Demo;
+			sourceTree = "<group>";
+		};
+		E8CF8E1D1ED6EF64002B9AC6 /* CIFilterExtensions */ = {
+			isa = PBXGroup;
+			children = (
+				E8CF8E1E1ED6EF9D002B9AC6 /* DistortionEffect */,
+			);
+			name = CIFilterExtensions;
+			path = ../../CIFilterExtensions;
+			sourceTree = "<group>";
+		};
+		E8CF8E1E1ED6EF9D002B9AC6 /* DistortionEffect */ = {
+			isa = PBXGroup;
+			children = (
+				E8CF8E1F1ED6EFD4002B9AC6 /* CIBumpDistortionFilter.swift */,
+				E8CF8E211ED6F152002B9AC6 /* CIBumpDistortionLinearFilter.swift */,
+				E8CF8E231ED6F2C2002B9AC6 /* CICircleSplashDistortionFilter.swift */,
+				E8CF8E251ED6F371002B9AC6 /* CICircularWrapFilter.swift */,
+				E8CF8E271ED6F407002B9AC6 /* CIDisplacementDistortionFilter.swift */,
+				E8CF8E291ED6F474002B9AC6 /* CIDrosteFilter.swift */,
+				E8CF8E2B1ED6F520002B9AC6 /* CIGlassDistortionFilter.swift */,
+				E8CF8E2D1ED6F589002B9AC6 /* CIGlassLozengeFilter.swift */,
+				E8CF8E2F1ED6F5F6002B9AC6 /* CIHoleDistortionFilter.swift */,
+				E8CF8E311ED6F655002B9AC6 /* CILightTunnelFilter.swift */,
+				E8CF8E331ED6F6D7002B9AC6 /* CIPinchDistortionFilter.swift */,
+				E8CF8E351ED6F75D002B9AC6 /* CIStretchCropFilter.swift */,
+				E8CF8E371ED6F7EA002B9AC6 /* CITorusLensDistortionFilter.swift */,
+				E8CF8E391ED6F83A002B9AC6 /* CITwirlDistortionFilter.swift */,
+				E8CF8E3B1ED6F88E002B9AC6 /* CIVortexDistortionFilter.swift */,
+			);
+			path = DistortionEffect;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -136,7 +198,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E8CF8E2C1ED6F520002B9AC6 /* CIGlassDistortionFilter.swift in Sources */,
 				E8CF8E0E1ED6EF0F002B9AC6 /* ViewController.swift in Sources */,
+				E8CF8E341ED6F6D7002B9AC6 /* CIPinchDistortionFilter.swift in Sources */,
+				E8CF8E301ED6F5F6002B9AC6 /* CIHoleDistortionFilter.swift in Sources */,
+				E8CF8E381ED6F7EA002B9AC6 /* CITorusLensDistortionFilter.swift in Sources */,
+				E8CF8E281ED6F407002B9AC6 /* CIDisplacementDistortionFilter.swift in Sources */,
+				E8CF8E2A1ED6F474002B9AC6 /* CIDrosteFilter.swift in Sources */,
+				E8CF8E3C1ED6F88E002B9AC6 /* CIVortexDistortionFilter.swift in Sources */,
+				E8CF8E221ED6F152002B9AC6 /* CIBumpDistortionLinearFilter.swift in Sources */,
+				E8CF8E361ED6F75D002B9AC6 /* CIStretchCropFilter.swift in Sources */,
+				E8CF8E261ED6F371002B9AC6 /* CICircularWrapFilter.swift in Sources */,
+				E8CF8E201ED6EFD4002B9AC6 /* CIBumpDistortionFilter.swift in Sources */,
+				E8CF8E3A1ED6F83A002B9AC6 /* CITwirlDistortionFilter.swift in Sources */,
+				E8CF8E321ED6F655002B9AC6 /* CILightTunnelFilter.swift in Sources */,
+				E8CF8E2E1ED6F589002B9AC6 /* CIGlassLozengeFilter.swift in Sources */,
+				E8CF8E241ED6F2C2002B9AC6 /* CICircleSplashDistortionFilter.swift in Sources */,
 				E8CF8E0C1ED6EF0F002B9AC6 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
