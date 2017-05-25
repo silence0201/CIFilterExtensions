@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import CIFilterExtensions
 
 class ViewController: UIViewController {
 
