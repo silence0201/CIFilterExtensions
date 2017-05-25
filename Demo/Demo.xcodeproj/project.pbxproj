@@ -151,6 +151,10 @@
 		E8CF906C1ED734F0002B9AC6 /* CIAreaMinimumAlphaFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8CF906B1ED734F0002B9AC6 /* CIAreaMinimumAlphaFilter.swift */; };
 		E8CF906E1ED7353F002B9AC6 /* CIColumnAverageFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8CF906D1ED7353F002B9AC6 /* CIColumnAverageFilter.swift */; };
 		E8CF90701ED7357C002B9AC6 /* CIRowAverageFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8CF906F1ED7357C002B9AC6 /* CIRowAverageFilter.swift */; };
+		E8CF90731ED735E8002B9AC6 /* CIGaussianGradientFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8CF90721ED735E8002B9AC6 /* CIGaussianGradientFilter.swift */; };
+		E8CF90751ED73615002B9AC6 /* CILinearGradientFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8CF90741ED73615002B9AC6 /* CILinearGradientFilter.swift */; };
+		E8CF90771ED7363B002B9AC6 /* CIRadialGradientFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8CF90761ED7363B002B9AC6 /* CIRadialGradientFilter.swift */; };
+		E8CF90791ED7366A002B9AC6 /* CISmoothLinearGradientFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8CF90781ED7366A002B9AC6 /* CISmoothLinearGradientFilter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -324,6 +328,10 @@
 		E8CF906B1ED734F0002B9AC6 /* CIAreaMinimumAlphaFilter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CIAreaMinimumAlphaFilter.swift; sourceTree = "<group>"; };
 		E8CF906D1ED7353F002B9AC6 /* CIColumnAverageFilter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CIColumnAverageFilter.swift; sourceTree = "<group>"; };
 		E8CF906F1ED7357C002B9AC6 /* CIRowAverageFilter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CIRowAverageFilter.swift; sourceTree = "<group>"; };
+		E8CF90721ED735E8002B9AC6 /* CIGaussianGradientFilter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CIGaussianGradientFilter.swift; sourceTree = "<group>"; };
+		E8CF90741ED73615002B9AC6 /* CILinearGradientFilter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CILinearGradientFilter.swift; sourceTree = "<group>"; };
+		E8CF90761ED7363B002B9AC6 /* CIRadialGradientFilter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CIRadialGradientFilter.swift; sourceTree = "<group>"; };
+		E8CF90781ED7366A002B9AC6 /* CISmoothLinearGradientFilter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CISmoothLinearGradientFilter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -381,6 +389,7 @@
 			children = (
 				E8CF8F4B1ED705FF002B9AC6 /* CIFilterExtensions.h */,
 				E8CF8F4C1ED705FF002B9AC6 /* Info.plist */,
+				E8CF90711ED735D2002B9AC6 /* Gradient */,
 				E8CF90601ED733FC002B9AC6 /* Reduction */,
 				E8CF90491ED7300C002B9AC6 /* Generator */,
 				E8CF90281ED726DD002B9AC6 /* TileEffect */,
@@ -611,6 +620,18 @@
 			path = ../../CIFilterExtensions/Reduction;
 			sourceTree = "<group>";
 		};
+		E8CF90711ED735D2002B9AC6 /* Gradient */ = {
+			isa = PBXGroup;
+			children = (
+				E8CF90721ED735E8002B9AC6 /* CIGaussianGradientFilter.swift */,
+				E8CF90741ED73615002B9AC6 /* CILinearGradientFilter.swift */,
+				E8CF90761ED7363B002B9AC6 /* CIRadialGradientFilter.swift */,
+				E8CF90781ED7366A002B9AC6 /* CISmoothLinearGradientFilter.swift */,
+			);
+			name = Gradient;
+			path = ../../CIFilterExtensions/Gradient;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -799,11 +820,13 @@
 				E8CF903A1ED72DDB002B9AC6 /* CIOpTileFilter.swift in Sources */,
 				E8CF8F881ED7061B002B9AC6 /* CIHardLightBlendModeFilter.swift in Sources */,
 				E8CF8FB71ED707C9002B9AC6 /* CISourceOutCompositingFilter.swift in Sources */,
+				E8CF90731ED735E8002B9AC6 /* CIGaussianGradientFilter.swift in Sources */,
 				E8CF8FCB1ED71685002B9AC6 /* CIColorClampFilter.swift in Sources */,
 				E8CF90211ED722F3002B9AC6 /* CIPageCurlTransitionFilter.swift in Sources */,
 				E8CF8FC41ED71567002B9AC6 /* CIDotScreenFilter.swift in Sources */,
 				E8CF90191ED72202002B9AC6 /* CIDisintegrateWithMaskTransitionFilter.swift in Sources */,
 				E8CF8FB31ED70768002B9AC6 /* CISourceAtopCompositingFilter.swift in Sources */,
+				E8CF90791ED7366A002B9AC6 /* CISmoothLinearGradientFilter.swift in Sources */,
 				E8CF8FD51ED71882002B9AC6 /* CIGammaAdjustFilter.swift in Sources */,
 				E8CF8F841ED7061B002B9AC6 /* CIDarkenBlendModeFilter.swift in Sources */,
 				E8CF906C1ED734F0002B9AC6 /* CIAreaMinimumAlphaFilter.swift in Sources */,
@@ -840,6 +863,7 @@
 				E8CF8FA11ED7061B002B9AC6 /* CIAffineTransformFilter.swift in Sources */,
 				E8CF90421ED72ECA002B9AC6 /* CISixfoldRotatedTileFilter.swift in Sources */,
 				E8CF90481ED72F6E002B9AC6 /* CITwelvefoldReflectedTileFilter.swift in Sources */,
+				E8CF90771ED7363B002B9AC6 /* CIRadialGradientFilter.swift in Sources */,
 				E8CF90081ED71FF6002B9AC6 /* CIPhotoEffectTonalFilter.swift in Sources */,
 				E8CF8F9D1ED7061B002B9AC6 /* CIStretchCropFilter.swift in Sources */,
 				E8CF8F861ED7061B002B9AC6 /* CIDivideBlendModeFilter.swift in Sources */,
@@ -862,6 +886,7 @@
 				E8CF8F831ED7061B002B9AC6 /* CIColorDodgeBlendModeFilter.swift in Sources */,
 				E8CF8FA01ED7061B002B9AC6 /* CIVortexDistortionFilter.swift in Sources */,
 				E8CF90061ED71FCE002B9AC6 /* CIPhotoEffectProcessFilter.swift in Sources */,
+				E8CF90751ED73615002B9AC6 /* CILinearGradientFilter.swift in Sources */,
 				E8CF8FFE1ED71F21002B9AC6 /* CIPhotoEffectFadeFilter.swift in Sources */,
 				E8CF8F801ED7061B002B9AC6 /* CIAdditionCompositingFilter.swift in Sources */,
 				E8CF90151ED72195002B9AC6 /* CIBarsSwipeTransitionFilter.swift in Sources */,
