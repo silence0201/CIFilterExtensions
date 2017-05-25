@@ -65,6 +65,11 @@
 		E8CF8FB71ED707C9002B9AC6 /* CISourceOutCompositingFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8CF8FB61ED707C9002B9AC6 /* CISourceOutCompositingFilter.swift */; };
 		E8CF8FB91ED70816002B9AC6 /* CISourceOverCompositingFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8CF8FB81ED70816002B9AC6 /* CISourceOverCompositingFilter.swift */; };
 		E8CF8FBD1ED70861002B9AC6 /* CISubtractBlendModeFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8CF8FBC1ED70861002B9AC6 /* CISubtractBlendModeFilter.swift */; };
+		E8CF8FC01ED708EC002B9AC6 /* CICircularScreenFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8CF8FBF1ED708EC002B9AC6 /* CICircularScreenFilter.swift */; };
+		E8CF8FC21ED7093C002B9AC6 /* CICMYKHalftoneFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8CF8FC11ED7093C002B9AC6 /* CICMYKHalftoneFilter.swift */; };
+		E8CF8FC41ED71567002B9AC6 /* CIDotScreenFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8CF8FC31ED71567002B9AC6 /* CIDotScreenFilter.swift */; };
+		E8CF8FC61ED715A2002B9AC6 /* CIHatchedScreenFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8CF8FC51ED715A2002B9AC6 /* CIHatchedScreenFilter.swift */; };
+		E8CF8FC81ED715DB002B9AC6 /* CILineScreenFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8CF8FC71ED715DB002B9AC6 /* CILineScreenFilter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -152,6 +157,11 @@
 		E8CF8FB61ED707C9002B9AC6 /* CISourceOutCompositingFilter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CISourceOutCompositingFilter.swift; sourceTree = "<group>"; };
 		E8CF8FB81ED70816002B9AC6 /* CISourceOverCompositingFilter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CISourceOverCompositingFilter.swift; sourceTree = "<group>"; };
 		E8CF8FBC1ED70861002B9AC6 /* CISubtractBlendModeFilter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CISubtractBlendModeFilter.swift; sourceTree = "<group>"; };
+		E8CF8FBF1ED708EC002B9AC6 /* CICircularScreenFilter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CICircularScreenFilter.swift; sourceTree = "<group>"; };
+		E8CF8FC11ED7093C002B9AC6 /* CICMYKHalftoneFilter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CICMYKHalftoneFilter.swift; sourceTree = "<group>"; };
+		E8CF8FC31ED71567002B9AC6 /* CIDotScreenFilter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CIDotScreenFilter.swift; sourceTree = "<group>"; };
+		E8CF8FC51ED715A2002B9AC6 /* CIHatchedScreenFilter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CIHatchedScreenFilter.swift; sourceTree = "<group>"; };
+		E8CF8FC71ED715DB002B9AC6 /* CILineScreenFilter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CILineScreenFilter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -209,6 +219,7 @@
 			children = (
 				E8CF8F4B1ED705FF002B9AC6 /* CIFilterExtensions.h */,
 				E8CF8F4C1ED705FF002B9AC6 /* Info.plist */,
+				E8CF8FBE1ED708CB002B9AC6 /* HalftoneEffect */,
 				E8CF8F551ED7061B002B9AC6 /* CompositeOperation */,
 				E8CF8F681ED7061B002B9AC6 /* DistortionEffect */,
 				E8CF8F781ED7061B002B9AC6 /* GeometryAdjustment */,
@@ -288,6 +299,19 @@
 			);
 			name = GeometryAdjustment;
 			path = ../../CIFilterExtensions/GeometryAdjustment;
+			sourceTree = "<group>";
+		};
+		E8CF8FBE1ED708CB002B9AC6 /* HalftoneEffect */ = {
+			isa = PBXGroup;
+			children = (
+				E8CF8FBF1ED708EC002B9AC6 /* CICircularScreenFilter.swift */,
+				E8CF8FC11ED7093C002B9AC6 /* CICMYKHalftoneFilter.swift */,
+				E8CF8FC31ED71567002B9AC6 /* CIDotScreenFilter.swift */,
+				E8CF8FC51ED715A2002B9AC6 /* CIHatchedScreenFilter.swift */,
+				E8CF8FC71ED715DB002B9AC6 /* CILineScreenFilter.swift */,
+			);
+			name = HalftoneEffect;
+			path = ../../CIFilterExtensions/HalftoneEffect;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -419,11 +443,13 @@
 				E8CF8FA41ED7061B002B9AC6 /* CIPerspectiveCorrectionFilter.swift in Sources */,
 				E8CF8F9C1ED7061B002B9AC6 /* CIPinchDistortionFilter.swift in Sources */,
 				E8CF8F971ED7061B002B9AC6 /* CIDrosteFilter.swift in Sources */,
+				E8CF8FC01ED708EC002B9AC6 /* CICircularScreenFilter.swift in Sources */,
 				E8CF8FAB1ED7067E002B9AC6 /* CIPinLightBlendModeFilter.swift in Sources */,
 				E8CF8F901ED7061B002B9AC6 /* CIMultiplyBlendModeFilter.swift in Sources */,
 				E8CF8FA21ED7061B002B9AC6 /* CICropFilter.swift in Sources */,
 				E8CF8F9E1ED7061B002B9AC6 /* CITorusLensDistortionFilter.swift in Sources */,
 				E8CF8F811ED7061B002B9AC6 /* CIColorBlendModeFilter.swift in Sources */,
+				E8CF8FC61ED715A2002B9AC6 /* CIHatchedScreenFilter.swift in Sources */,
 				E8CF8F941ED7061B002B9AC6 /* CICircleSplashDistortionFilter.swift in Sources */,
 				E8CF8F8B1ED7061B002B9AC6 /* CILinearBurnBlendModeFilter.swift in Sources */,
 				E8CF8FB51ED7079A002B9AC6 /* CISourceInCompositingFilter.swift in Sources */,
@@ -437,6 +463,7 @@
 				E8CF8FA31ED7061B002B9AC6 /* CILanczosScaleTransformFilter.swift in Sources */,
 				E8CF8F881ED7061B002B9AC6 /* CIHardLightBlendModeFilter.swift in Sources */,
 				E8CF8FB71ED707C9002B9AC6 /* CISourceOutCompositingFilter.swift in Sources */,
+				E8CF8FC41ED71567002B9AC6 /* CIDotScreenFilter.swift in Sources */,
 				E8CF8FB31ED70768002B9AC6 /* CISourceAtopCompositingFilter.swift in Sources */,
 				E8CF8F841ED7061B002B9AC6 /* CIDarkenBlendModeFilter.swift in Sources */,
 				E8CF8FAF1ED706F0002B9AC6 /* CIScreenBlendModeFilter.swift in Sources */,
@@ -453,6 +480,7 @@
 				E8CF8F9D1ED7061B002B9AC6 /* CIStretchCropFilter.swift in Sources */,
 				E8CF8F861ED7061B002B9AC6 /* CIDivideBlendModeFilter.swift in Sources */,
 				E8CF8F911ED7061B002B9AC6 /* CIMultiplyCompositingFilter.swift in Sources */,
+				E8CF8FC21ED7093C002B9AC6 /* CICMYKHalftoneFilter.swift in Sources */,
 				E8CF8F8C1ED7061B002B9AC6 /* CILinearDodgeBlendModeFilter.swift in Sources */,
 				E8CF8FA71ED7061B002B9AC6 /* CIStraightenFilter.swift in Sources */,
 				E8CF8F8F1ED7061B002B9AC6 /* CIMinimumCompositingFilter.swift in Sources */,
@@ -463,6 +491,7 @@
 				E8CF8F831ED7061B002B9AC6 /* CIColorDodgeBlendModeFilter.swift in Sources */,
 				E8CF8FA01ED7061B002B9AC6 /* CIVortexDistortionFilter.swift in Sources */,
 				E8CF8F801ED7061B002B9AC6 /* CIAdditionCompositingFilter.swift in Sources */,
+				E8CF8FC81ED715DB002B9AC6 /* CILineScreenFilter.swift in Sources */,
 				E8CF8F8D1ED7061B002B9AC6 /* CILuminosityBlendModeFilter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
