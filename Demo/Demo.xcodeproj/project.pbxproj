@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E856A0D11ED73B290025C67D /* CISharpenLuminanceFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E856A0D01ED73B290025C67D /* CISharpenLuminanceFilter.swift */; };
+		E856A0D31ED73B530025C67D /* CIUnsharpMaskFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E856A0D21ED73B530025C67D /* CIUnsharpMaskFilter.swift */; };
 		E8CF8E0C1ED6EF0F002B9AC6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8CF8E0B1ED6EF0F002B9AC6 /* AppDelegate.swift */; };
 		E8CF8E0E1ED6EF0F002B9AC6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8CF8E0D1ED6EF0F002B9AC6 /* ViewController.swift */; };
 		E8CF8E111ED6EF0F002B9AC6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E8CF8E0F1ED6EF0F002B9AC6 /* Main.storyboard */; };
@@ -197,6 +199,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		E856A0D01ED73B290025C67D /* CISharpenLuminanceFilter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CISharpenLuminanceFilter.swift; sourceTree = "<group>"; };
+		E856A0D21ED73B530025C67D /* CIUnsharpMaskFilter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CIUnsharpMaskFilter.swift; sourceTree = "<group>"; };
 		E8CF8E081ED6EF0F002B9AC6 /* Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E8CF8E0B1ED6EF0F002B9AC6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E8CF8E0D1ED6EF0F002B9AC6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -383,6 +387,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E856A0CF1ED73B150025C67D /* Sharpen */ = {
+			isa = PBXGroup;
+			children = (
+				E856A0D01ED73B290025C67D /* CISharpenLuminanceFilter.swift */,
+				E856A0D21ED73B530025C67D /* CIUnsharpMaskFilter.swift */,
+			);
+			name = Sharpen;
+			path = ../../CIFilterExtensions/Sharpen;
+			sourceTree = "<group>";
+		};
 		E8CF8DFF1ED6EF0F002B9AC6 = {
 			isa = PBXGroup;
 			children = (
@@ -419,6 +433,7 @@
 			children = (
 				E8CF8F4B1ED705FF002B9AC6 /* CIFilterExtensions.h */,
 				E8CF8F4C1ED705FF002B9AC6 /* Info.plist */,
+				E856A0CF1ED73B150025C67D /* Sharpen */,
 				E8CF907A1ED736CB002B9AC6 /* Stylize */,
 				E8CF90711ED735D2002B9AC6 /* Gradient */,
 				E8CF90601ED733FC002B9AC6 /* Reduction */,
@@ -840,6 +855,7 @@
 				E8CF8F9E1ED7061B002B9AC6 /* CITorusLensDistortionFilter.swift in Sources */,
 				E8CF905B1ED7334A002B9AC6 /* CIStarShineGeneratorFilter.swift in Sources */,
 				E8CF8FE81ED71C1C002B9AC6 /* CIColorCubeFilter.swift in Sources */,
+				E856A0D31ED73B530025C67D /* CIUnsharpMaskFilter.swift in Sources */,
 				E8CF90321ED727E9002B9AC6 /* CIFourfoldRotatedTileFilter.swift in Sources */,
 				E8CF8F811ED7061B002B9AC6 /* CIColorBlendModeFilter.swift in Sources */,
 				E8CF90961ED73A53002B9AC6 /* CIGloomFilter.swift in Sources */,
@@ -950,6 +966,7 @@
 				E8CF8F891ED7061B002B9AC6 /* CIHueBlendModeFilter.swift in Sources */,
 				E8CF8FA51ED7061B002B9AC6 /* CIPerspectiveTransformFilter.swift in Sources */,
 				E8CF8F831ED7061B002B9AC6 /* CIColorDodgeBlendModeFilter.swift in Sources */,
+				E856A0D11ED73B290025C67D /* CISharpenLuminanceFilter.swift in Sources */,
 				E8CF90901ED7398E002B9AC6 /* CIDepthOfFieldFilter.swift in Sources */,
 				E8CF8FA01ED7061B002B9AC6 /* CIVortexDistortionFilter.swift in Sources */,
 				E8CF90061ED71FCE002B9AC6 /* CIPhotoEffectProcessFilter.swift in Sources */,
@@ -1180,6 +1197,7 @@
 				E8CF8E1C1ED6EF0F002B9AC6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E8CF8F521ED705FF002B9AC6 /* Build configuration list for PBXNativeTarget "CIFilterExtensions" */ = {
 			isa = XCConfigurationList;
@@ -1188,6 +1206,7 @@
 				E8CF8F541ED705FF002B9AC6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
