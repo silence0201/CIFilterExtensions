@@ -27,6 +27,13 @@
 		E8CF8E381ED6F7EA002B9AC6 /* CITorusLensDistortionFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8CF8E371ED6F7EA002B9AC6 /* CITorusLensDistortionFilter.swift */; };
 		E8CF8E3A1ED6F83A002B9AC6 /* CITwirlDistortionFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8CF8E391ED6F83A002B9AC6 /* CITwirlDistortionFilter.swift */; };
 		E8CF8E3C1ED6F88E002B9AC6 /* CIVortexDistortionFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8CF8E3B1ED6F88E002B9AC6 /* CIVortexDistortionFilter.swift */; };
+		E8CF8E3F1ED6F924002B9AC6 /* CIAffineTransformFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8CF8E3E1ED6F924002B9AC6 /* CIAffineTransformFilter.swift */; };
+		E8CF8E411ED6F96C002B9AC6 /* CICropFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8CF8E401ED6F96C002B9AC6 /* CICropFilter.swift */; };
+		E8CF8E431ED6FA14002B9AC6 /* CILanczosScaleTransformFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8CF8E421ED6FA14002B9AC6 /* CILanczosScaleTransformFilter.swift */; };
+		E8CF8E451ED6FA7A002B9AC6 /* CIPerspectiveCorrectionFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8CF8E441ED6FA7A002B9AC6 /* CIPerspectiveCorrectionFilter.swift */; };
+		E8CF8E471ED6FAC1002B9AC6 /* CIPerspectiveTransformFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8CF8E461ED6FAC1002B9AC6 /* CIPerspectiveTransformFilter.swift */; };
+		E8CF8E491ED6FB32002B9AC6 /* CIPerspectiveTransformWithExtentFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8CF8E481ED6FB32002B9AC6 /* CIPerspectiveTransformWithExtentFilter.swift */; };
+		E8CF8E4B1ED6FBF6002B9AC6 /* CIStraightenFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8CF8E4A1ED6FBF6002B9AC6 /* CIStraightenFilter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -52,6 +59,13 @@
 		E8CF8E371ED6F7EA002B9AC6 /* CITorusLensDistortionFilter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CITorusLensDistortionFilter.swift; sourceTree = "<group>"; };
 		E8CF8E391ED6F83A002B9AC6 /* CITwirlDistortionFilter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CITwirlDistortionFilter.swift; sourceTree = "<group>"; };
 		E8CF8E3B1ED6F88E002B9AC6 /* CIVortexDistortionFilter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CIVortexDistortionFilter.swift; sourceTree = "<group>"; };
+		E8CF8E3E1ED6F924002B9AC6 /* CIAffineTransformFilter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CIAffineTransformFilter.swift; sourceTree = "<group>"; };
+		E8CF8E401ED6F96C002B9AC6 /* CICropFilter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CICropFilter.swift; sourceTree = "<group>"; };
+		E8CF8E421ED6FA14002B9AC6 /* CILanczosScaleTransformFilter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CILanczosScaleTransformFilter.swift; sourceTree = "<group>"; };
+		E8CF8E441ED6FA7A002B9AC6 /* CIPerspectiveCorrectionFilter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CIPerspectiveCorrectionFilter.swift; sourceTree = "<group>"; };
+		E8CF8E461ED6FAC1002B9AC6 /* CIPerspectiveTransformFilter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CIPerspectiveTransformFilter.swift; sourceTree = "<group>"; };
+		E8CF8E481ED6FB32002B9AC6 /* CIPerspectiveTransformWithExtentFilter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CIPerspectiveTransformWithExtentFilter.swift; sourceTree = "<group>"; };
+		E8CF8E4A1ED6FBF6002B9AC6 /* CIStraightenFilter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CIStraightenFilter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +112,7 @@
 		E8CF8E1D1ED6EF64002B9AC6 /* CIFilterExtensions */ = {
 			isa = PBXGroup;
 			children = (
+				E8CF8E3D1ED6F90D002B9AC6 /* GeometryAdjustment */,
 				E8CF8E1E1ED6EF9D002B9AC6 /* DistortionEffect */,
 			);
 			name = CIFilterExtensions;
@@ -124,6 +139,20 @@
 				E8CF8E3B1ED6F88E002B9AC6 /* CIVortexDistortionFilter.swift */,
 			);
 			path = DistortionEffect;
+			sourceTree = "<group>";
+		};
+		E8CF8E3D1ED6F90D002B9AC6 /* GeometryAdjustment */ = {
+			isa = PBXGroup;
+			children = (
+				E8CF8E3E1ED6F924002B9AC6 /* CIAffineTransformFilter.swift */,
+				E8CF8E401ED6F96C002B9AC6 /* CICropFilter.swift */,
+				E8CF8E421ED6FA14002B9AC6 /* CILanczosScaleTransformFilter.swift */,
+				E8CF8E441ED6FA7A002B9AC6 /* CIPerspectiveCorrectionFilter.swift */,
+				E8CF8E461ED6FAC1002B9AC6 /* CIPerspectiveTransformFilter.swift */,
+				E8CF8E481ED6FB32002B9AC6 /* CIPerspectiveTransformWithExtentFilter.swift */,
+				E8CF8E4A1ED6FBF6002B9AC6 /* CIStraightenFilter.swift */,
+			);
+			path = GeometryAdjustment;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -199,20 +228,27 @@
 			buildActionMask = 2147483647;
 			files = (
 				E8CF8E2C1ED6F520002B9AC6 /* CIGlassDistortionFilter.swift in Sources */,
+				E8CF8E411ED6F96C002B9AC6 /* CICropFilter.swift in Sources */,
 				E8CF8E0E1ED6EF0F002B9AC6 /* ViewController.swift in Sources */,
 				E8CF8E341ED6F6D7002B9AC6 /* CIPinchDistortionFilter.swift in Sources */,
 				E8CF8E301ED6F5F6002B9AC6 /* CIHoleDistortionFilter.swift in Sources */,
 				E8CF8E381ED6F7EA002B9AC6 /* CITorusLensDistortionFilter.swift in Sources */,
 				E8CF8E281ED6F407002B9AC6 /* CIDisplacementDistortionFilter.swift in Sources */,
+				E8CF8E471ED6FAC1002B9AC6 /* CIPerspectiveTransformFilter.swift in Sources */,
 				E8CF8E2A1ED6F474002B9AC6 /* CIDrosteFilter.swift in Sources */,
 				E8CF8E3C1ED6F88E002B9AC6 /* CIVortexDistortionFilter.swift in Sources */,
 				E8CF8E221ED6F152002B9AC6 /* CIBumpDistortionLinearFilter.swift in Sources */,
 				E8CF8E361ED6F75D002B9AC6 /* CIStretchCropFilter.swift in Sources */,
 				E8CF8E261ED6F371002B9AC6 /* CICircularWrapFilter.swift in Sources */,
 				E8CF8E201ED6EFD4002B9AC6 /* CIBumpDistortionFilter.swift in Sources */,
+				E8CF8E4B1ED6FBF6002B9AC6 /* CIStraightenFilter.swift in Sources */,
+				E8CF8E491ED6FB32002B9AC6 /* CIPerspectiveTransformWithExtentFilter.swift in Sources */,
 				E8CF8E3A1ED6F83A002B9AC6 /* CITwirlDistortionFilter.swift in Sources */,
+				E8CF8E431ED6FA14002B9AC6 /* CILanczosScaleTransformFilter.swift in Sources */,
 				E8CF8E321ED6F655002B9AC6 /* CILightTunnelFilter.swift in Sources */,
 				E8CF8E2E1ED6F589002B9AC6 /* CIGlassLozengeFilter.swift in Sources */,
+				E8CF8E3F1ED6F924002B9AC6 /* CIAffineTransformFilter.swift in Sources */,
+				E8CF8E451ED6FA7A002B9AC6 /* CIPerspectiveCorrectionFilter.swift in Sources */,
 				E8CF8E241ED6F2C2002B9AC6 /* CICircleSplashDistortionFilter.swift in Sources */,
 				E8CF8E0C1ED6EF0F002B9AC6 /* AppDelegate.swift in Sources */,
 			);
