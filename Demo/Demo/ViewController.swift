@@ -17,16 +17,21 @@ class ViewController: UIViewController {
         
         view.addSubview(imageView)
         
+        
         if let image = UIImage.init(named: "Demo"),
             let cgimage = image.cgImage{
             imageView.contentMode = .scaleAspectFill
             let ciimage = CIImage.init(cgImage: cgimage)
-            let ot = ciimage.gaussianBlurFilter(radius: 5)
+            let ot = ciimage.gaussianBlurFilter(radius: 5)?.colorInvertFilter()
             ot?.convertToUIImageCompletion({ (image) in
                 if let image = image {
                     self.imageView.image = image
                 }
             })
+            
+            let blur = CIGaussianBlurFilter.init(image: ciimage, radius: 5)
+            _ = blur.filter()
+
             
             // self.imageView.image = UIImage.init(ciImage: ot!)
         }
