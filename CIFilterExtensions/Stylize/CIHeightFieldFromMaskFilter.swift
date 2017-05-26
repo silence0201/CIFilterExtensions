@@ -2,7 +2,7 @@
 //  CIHeightFieldFromMask.swift
 //  Demo
 //
-//  Created by 杨晴贺 on 2017/5/26.
+//  Created by Silence on 2017/5/26.
 //  Copyright © 2017年 Silence. All rights reserved.
 //
 
