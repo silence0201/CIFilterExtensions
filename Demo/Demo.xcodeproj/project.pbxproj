@@ -15,7 +15,7 @@
 		E856A0DC1ED73C910025C67D /* CIMaskedVariableBlurFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E856A0DB1ED73C910025C67D /* CIMaskedVariableBlurFilter.swift */; };
 		E856A0DE1ED73CC00025C67D /* CIMotionBlurFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E856A0DD1ED73CC00025C67D /* CIMotionBlurFilter.swift */; };
 		E856A0E01ED73CEA0025C67D /* CIZoomBlurFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E856A0DF1ED73CEA0025C67D /* CIZoomBlurFilter.swift */; };
-		E856A0E21ED73E370025C67D /* CIImageExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E856A0E11ED73E370025C67D /* CIImageExtension.swift */; };
+		E87E1A591ED7D8E5002F0C4B /* CIImageExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E87E1A581ED7D8E5002F0C4B /* CIImageExtension.swift */; };
 		E8CF8E0C1ED6EF0F002B9AC6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8CF8E0B1ED6EF0F002B9AC6 /* AppDelegate.swift */; };
 		E8CF8E0E1ED6EF0F002B9AC6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8CF8E0D1ED6EF0F002B9AC6 /* ViewController.swift */; };
 		E8CF8E111ED6EF0F002B9AC6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E8CF8E0F1ED6EF0F002B9AC6 /* Main.storyboard */; };
@@ -214,7 +214,7 @@
 		E856A0DB1ED73C910025C67D /* CIMaskedVariableBlurFilter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CIMaskedVariableBlurFilter.swift; sourceTree = "<group>"; };
 		E856A0DD1ED73CC00025C67D /* CIMotionBlurFilter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CIMotionBlurFilter.swift; sourceTree = "<group>"; };
 		E856A0DF1ED73CEA0025C67D /* CIZoomBlurFilter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CIZoomBlurFilter.swift; sourceTree = "<group>"; };
-		E856A0E11ED73E370025C67D /* CIImageExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CIImageExtension.swift; sourceTree = "<group>"; };
+		E87E1A581ED7D8E5002F0C4B /* CIImageExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CIImageExtension.swift; path = ../../CIFilterExtensions/CIImageExtension.swift; sourceTree = "<group>"; };
 		E8CF8E081ED6EF0F002B9AC6 /* Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E8CF8E0B1ED6EF0F002B9AC6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E8CF8E0D1ED6EF0F002B9AC6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -461,7 +461,7 @@
 			children = (
 				E8CF8F4B1ED705FF002B9AC6 /* CIFilterExtensions.h */,
 				E8CF8F4C1ED705FF002B9AC6 /* Info.plist */,
-				E856A0E11ED73E370025C67D /* CIImageExtension.swift */,
+				E87E1A581ED7D8E5002F0C4B /* CIImageExtension.swift */,
 				E856A0D41ED73BE70025C67D /* Blur */,
 				E856A0CF1ED73B150025C67D /* Sharpen */,
 				E8CF907A1ED736CB002B9AC6 /* Stylize */,
@@ -948,7 +948,7 @@
 				E8CF902A1ED726F9002B9AC6 /* CIAffineClampFilter.swift in Sources */,
 				E8CF8F981ED7061B002B9AC6 /* CIGlassDistortionFilter.swift in Sources */,
 				E8CF8F9A1ED7061B002B9AC6 /* CIHoleDistortionFilter.swift in Sources */,
-				E856A0E21ED73E370025C67D /* CIImageExtension.swift in Sources */,
+				E87E1A591ED7D8E5002F0C4B /* CIImageExtension.swift in Sources */,
 				E8CF90041ED71F9E002B9AC6 /* CIPhotoEffectNoirFilter.swift in Sources */,
 				E8CF8FA91ED70643002B9AC6 /* CIOverlayBlendModeFilter.swift in Sources */,
 				E8CF8FFC1ED71E89002B9AC6 /* CIPhotoEffectChromeFilter.swift in Sources */,
