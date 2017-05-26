@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "CIFilterExtensions"
-  s.version      = "0.1.2"
+  s.version      = "0.1.3"
   s.summary      = "CIFilterExtensions."
   s.description  = <<-DESC
   						Easy Use CIFilter
@@ -11,64 +11,62 @@ Pod::Spec.new do |s|
   s.author             = { "Silence" => "374619540@qq.com" }
   s.platform     = :ios, "8.0"
   s.source       = { :git => "https://github.com/silence0201/CIFilterExtensions.git", :tag => "#{s.version}" }
-  s.source_files  = "CIFilterExtensions", "CIFilterExtensions/CIImageExtension.swift"
-  s.exclude_files = "CIFilterExtensions/Exclude"
   s.requires_arc = true
 
   s.subspec 'Blur' do |ss|
-    ss.source_files = "Blur", "CIFilterExtensions/Blur/*.swift"
+    ss.source_files = "Blur", "CIFilterExtensions/{Blur,Common}/*.swift"
   end
 
   s.subspec 'Blur' do |ss|
-    ss.source_files = "ColorAdjustment", "CIFilterExtensions/ColorAdjustment/*.swift"
+    ss.source_files = "ColorAdjustment", "CIFilterExtensions/{ColorAdjustment,Common}/*.swift"
   end
 
   s.subspec 'ColorEffect' do |ss|
-    ss.source_files = "ColorEffect", "CIFilterExtensions/ColorEffect/*.swift"
+    ss.source_files = "ColorEffect", "CIFilterExtensions/{ColorEffect,Common}/*.swift"
   end
 
   s.subspec 'CompositeOperation' do |ss|
-    ss.source_files = "CompositeOperation", "CIFilterExtensions/CompositeOperation/*.swift"
+    ss.source_files = "CompositeOperation", "CIFilterExtensions/{CompositeOperation,Common}/*.swift"
   end  
 
   s.subspec 'DistortionEffect' do |ss|
-    ss.source_files = "DistortionEffect", "CIFilterExtensions/DistortionEffect/*.swift"
+    ss.source_files = "DistortionEffect", "CIFilterExtensions/{DistortionEffect,Common}/*.swift"
   end
 
   s.subspec 'Generator' do |ss|
-    ss.source_files = "Generator", "CIFilterExtensions/Generator/*.swift"
+    ss.source_files = "Generator", "CIFilterExtensions/{Generator,Common}/*.swift"
   end
 
   s.subspec 'GeometryAdjustment' do |ss|
-    ss.source_files = "GeometryAdjustment", "CIFilterExtensions/GeometryAdjustment/*.swift"
+    ss.source_files = "GeometryAdjustment", "CIFilterExtensions/{GeometryAdjustment,Common}/*.swift"
   end
 
   s.subspec 'Gradient' do |ss|
-    ss.source_files = "Gradient", "CIFilterExtensions/Gradient/*.swift"
+    ss.source_files = "Gradient", "CIFilterExtensions/{Gradient,Common}/*.swift"
   end
 
   s.subspec 'HalftoneEffect' do |ss|
-    ss.source_files = "HalftoneEffect", "CIFilterExtensions/HalftoneEffect/*.swift"
+    ss.source_files = "HalftoneEffect", "CIFilterExtensions/{HalftoneEffect,Common}/*.swift"
   end
 
   s.subspec 'Reduction' do |ss|
-    ss.source_files = "Reduction", "CIFilterExtensions/Reduction/*.swift"
+    ss.source_files = "Reduction", "CIFilterExtensions/{Reduction,Common}/*.swift"
   end
 
   s.subspec 'Sharpen' do |ss|
-    ss.source_files = "Sharpen", "CIFilterExtensions/Sharpen/*.swift"
+    ss.source_files = "Sharpen", "CIFilterExtensions/{Sharpen,Common}/*.swift"
   end
 
   s.subspec 'Stylize' do |ss|
-    ss.source_files = "Stylize", "CIFilterExtensions/Stylize/*.swift"
+    ss.source_files = "Stylize", "CIFilterExtensions/{Stylize,Common}/*.swift"
   end
 
   s.subspec 'TileEffect' do |ss|
-    ss.source_files = "TileEffect", "CIFilterExtensions/TileEffect/*.swift"
+    ss.source_files = "TileEffect", "CIFilterExtensions/{TileEffect,Common}/*.swift"
   end
 
   s.subspec 'Transition' do |ss|
-    ss.source_files = "Transition", "CIFilterExtensions/Transition/*.swift"
+    ss.source_files = "Transition", "CIFilterExtensions/{Transition,Common}/*.swift"
   end
 
 
