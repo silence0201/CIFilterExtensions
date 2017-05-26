@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "CIFilterExtensions"
-  s.version      = "0.1.0"
+  s.version      = "0.1.1"
   s.summary      = "CIFilterExtensions."
   s.description  = <<-DESC
   						Easy Use CIFilter
