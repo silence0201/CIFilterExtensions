@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
     ss.source_files = "Blur", "CIFilterExtensions/{Blur,Common}/*.swift"
   end
 
-  s.subspec 'Blur' do |ss|
+  s.subspec 'ColorAdjustment' do |ss|
     ss.source_files = "ColorAdjustment", "CIFilterExtensions/{ColorAdjustment,Common}/*.swift"
   end
 
